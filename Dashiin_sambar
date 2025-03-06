@@ -1,7 +1,7 @@
 [
   {
     "question": "Where is this landmark?",
-    "image": "https://github.com/HomoPhobic-afk/OIS25/blob/main/eiffel.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg",
     "options": ["Paris", "London", "New York", "Rome"],
     "answer": "Paris",
     "fact": "The Eiffel Tower was originally meant to be dismantled after 20 years."
