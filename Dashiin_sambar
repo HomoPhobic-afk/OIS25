@@ -1,56 +1,56 @@
 [
   {
     "question": "Where is this landmark?",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg",
+    "image": "https://github.com/HomoPhobic-afk/OIS25/blob/main/eiffel.jpg",
     "options": ["Paris", "London", "New York", "Rome"],
     "answer": "Paris",
     "fact": "The Eiffel Tower was originally meant to be dismantled after 20 years."
   },
   {
     "question": "Which country is home to this landmark?",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
+    "image": "https://github.com/HomoPhobic-afk/OIS25/blob/main/The_Great_Wall_of_China_-_Badaling.jpg",
     "options": ["China", "Japan", "South Korea", "India"],
     "answer": "China",
     "fact": "The Great Wall of China stretches over 13,000 miles!"
   },
   {
     "question": "Where is this ancient structure located?",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+    "image": "https://github.com/HomoPhobic-afk/OIS25/blob/main/Colosseo_2020.jpg",
     "options": ["Rome", "Athens", "Istanbul", "Madrid"],
     "answer": "Rome",
     "fact": "The Colosseum could hold up to 80,000 spectators in its prime."
   },
   {
     "question": "Where can you find this famous statue?",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Lincoln_Memorial_%28Lincoln_City%2C_Oregon%29.jpg",
+    "image": "https://github.com/HomoPhobic-afk/OIS25/blob/main/Front_view_of_Statue_of_Liberty_with_pedestal_and_base_2024.jpg",
     "options": ["USA", "France", "Brazil", "Russia"],
     "answer": "USA",
     "fact": "The Statue of Liberty was a gift from France to the United States in 1886."
   },
   {
     "question": "Which country is home to this stunning temple?",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Angkor_Wat_early_morning.jpg",
+    "image": "https://github.com/HomoPhobic-afk/OIS25/blob/main/20171126_Angkor_Wat_4712_DxO.jpg",
     "options": ["Cambodia", "Thailand", "Vietnam", "Indonesia"],
     "answer": "Cambodia",
     "fact": "Angkor Wat is the largest religious monument in the world."
   },
   {
     "question": "Which city is this iconic bridge located in?",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Sydney_Opera_House_and_Harbour_Bridge.jpg",
+    "image": "https://github.com/HomoPhobic-afk/OIS25/blob/main/Sydney_(AU)%2C_Harbour_Bridge_--_2019_--_2179.jpg",
     "options": ["Sydney", "Los Angeles", "Dubai", "Cape Town"],
     "answer": "Sydney",
     "fact": "The Sydney Harbour Bridge is nicknamed 'The Coathanger' due to its arch shape."
   },
   {
     "question": "Where can you see these famous statues?",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Moai_Rano_raraku.jpg",
+    "image": "https://github.com/HomoPhobic-afk/OIS25/blob/main/AhuTongariki.jpeg",
     "options": ["Easter Island", "Hawaii", "New Zealand", "Chile"],
     "answer": "Easter Island",
     "fact": "Easter Island's Moai statues were carved by the Rapa Nui people between 1250 and 1500 AD."
   },
   {
     "question": "Where is this grand palace located?",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Buckingham_Palace_from_gardens%2C_London%2C_UK_-_Diliff.jpg",
+    "image": "https://github.com/HomoPhobic-afk/OIS25/blob/main/1200px-Buckingham_Palace_UK.jpg",
     "options": ["United Kingdom", "France", "Spain", "Germany"],
     "answer": "United Kingdom",
     "fact": "Buckingham Palace has 775 rooms, including 78 bathrooms."
