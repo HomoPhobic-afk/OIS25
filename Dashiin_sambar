@@ -1,58 +1,324 @@
-[
-  {
-    "question": "Where is this landmark?",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg",
-    "options": ["Paris", "London", "New York", "Rome"],
-    "answer": "Paris",
-    "fact": "The Eiffel Tower was originally meant to be dismantled after 20 years."
-  },
-  {
-    "question": "Which country is home to this landmark?",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/1200px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
-    "options": ["China", "Japan", "South Korea", "India"],
-    "answer": "China",
-    "fact": "The Great Wall of China stretches over 13,000 miles!"
-  },
-  {
-    "question": "Where is this ancient structure located?",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1200px-Colosseo_2020.jpg",
-    "options": ["Rome", "Athens", "Istanbul", "Madrid"],
-    "answer": "Rome",
-    "fact": "The Colosseum could hold up to 80,000 spectators in its prime."
-  },
-  {
-    "question": "Where can you find this famous statue?",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Front_view_of_Statue_of_Liberty_with_pedestal_and_base_2024.jpg/640px-Front_view_of_Statue_of_Liberty_with_pedestal_and_base_2024.jpg",
-    "options": ["USA", "France", "Brazil", "Russia"],
-    "answer": "USA",
-    "fact": "The Statue of Liberty was a gift from France to the United States in 1886."
-  },
-  {
-    "question": "Which country is home to this stunning temple?",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/20171126_Angkor_Wat_4712_DxO.jpg/800px-20171126_Angkor_Wat_4712_DxO.jpg",
-    "options": ["Cambodia", "Thailand", "Vietnam", "Indonesia"],
-    "answer": "Cambodia",
-    "fact": "Angkor Wat is the largest religious monument in the world."
-  },
-  {
-    "question": "Which city is this iconic bridge located in?",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Sydney_%28AU%29%2C_Harbour_Bridge_--_2019_--_2179.jpg",
-    "options": ["Sydney", "Los Angeles", "Dubai", "Cape Town"],
-    "answer": "Sydney",
-    "fact": "The Sydney Harbour Bridge is nicknamed 'The Coathanger' due to its arch shape."
-  },
-  {
-    "question": "Where can you see these famous statues?",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/AhuTongariki.JPG",
-    "options": ["Easter Island", "Hawaii", "New Zealand", "Chile"],
-    "answer": "Easter Island",
-    "fact": "Easter Island's Moai statues were carved by the Rapa Nui people between 1250 and 1500 AD."
-  },
-  {
-    "question": "Where is this grand palace located?",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Buckingham_Palace_UK.jpg/1200px-Buckingham_Palace_UK.jpg",
-    "options": ["United Kingdom", "France", "Spain", "Germany"],
-    "answer": "United Kingdom",
-    "fact": "Buckingham Palace has 775 rooms, including 78 bathrooms."
-  }
-]
+{
+  "quizTitle": "Food Diets Knowledge Test",
+  "description": "Test your knowledge of Carnivore, Vegan, Keto, and Dairy diets with questions divided by key categories.",
+  "diets": [
+    {
+      "dietName": "Carnivore Diet",
+      "sections": [
+        {
+          "sectionTitle": "Basics",
+          "questions": [
+            {
+              "id": "carnivore-1",
+              "question": "What is the primary food group in the carnivore diet?",
+              "options": ["Fruits", "Vegetables", "Meat", "Grains"],
+              "correctAnswer": "Meat"
+            },
+            {
+              "id": "carnivore-2",
+              "question": "Which macronutrient is most abundant in the carnivore diet?",
+              "options": ["Protein", "Carbohydrates", "Fiber", "Sugars"],
+              "correctAnswer": "Protein"
+            }
+          ]
+        },
+        {
+          "sectionTitle": "Benefits",
+          "questions": [
+            {
+              "id": "carnivore-3",
+              "question": "Which is a commonly reported benefit of the carnivore diet?",
+              "options": ["Improved digestion", "More fiber", "Weight gain", "Higher sugar levels"],
+              "correctAnswer": "Improved digestion"
+            },
+            {
+              "id": "carnivore-4",
+              "question": "Some followers of the carnivore diet report improvements in which skin condition?",
+              "options": ["Acne", "Eczema", "Psoriasis", "All of the above"],
+              "correctAnswer": "All of the above"
+            }
+          ]
+        },
+        {
+          "sectionTitle": "Challenges",
+          "questions": [
+            {
+              "id": "carnivore-5",
+              "question": "What is a common concern with the carnivore diet?",
+              "options": ["Vitamin C deficiency", "Too much fiber", "Too many vegetables", "Low sugar"],
+              "correctAnswer": "Vitamin C deficiency"
+            },
+            {
+              "id": "carnivore-6",
+              "question": "Which mineral may be consumed in excess on a carnivore diet?",
+              "options": ["Calcium", "Iron", "Zinc", "Iodine"],
+              "correctAnswer": "Iron"
+            }
+          ]
+        },
+        {
+          "sectionTitle": "Foods Allowed",
+          "questions": [
+            {
+              "id": "carnivore-7",
+              "question": "Which of the following is allowed on a strict carnivore diet?",
+              "options": ["Eggs", "Apples", "Bread", "Broccoli"],
+              "correctAnswer": "Eggs"
+            },
+            {
+              "id": "carnivore-8",
+              "question": "Are dairy products generally included in the carnivore diet?",
+              "options": ["Yes, always", "Sometimes, depending on individual tolerance", "No, never", "Only fermented ones"],
+              "correctAnswer": "Sometimes, depending on individual tolerance"
+            },
+            {
+              "id": "carnivore-9",
+              "question": "Which of these would be excluded from a carnivore diet?",
+              "options": ["Steak", "Liver", "Rice", "Chicken thighs"],
+              "correctAnswer": "Rice"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dietName": "Vegan Diet",
+      "sections": [
+        {
+          "sectionTitle": "Basics",
+          "questions": [
+            {
+              "id": "vegan-1",
+              "question": "What does a vegan diet exclude?",
+              "options": ["Meat", "Dairy", "Eggs", "All of the above"],
+              "correctAnswer": "All of the above"
+            },
+            {
+              "id": "vegan-2",
+              "question": "Which nutrient must vegans supplement or obtain from fortified foods?",
+              "options": ["Vitamin C", "Vitamin B12", "Iron", "Fiber"],
+              "correctAnswer": "Vitamin B12"
+            }
+          ]
+        },
+        {
+          "sectionTitle": "Benefits",
+          "questions": [
+            {
+              "id": "vegan-3",
+              "question": "Which of the following is a potential health benefit of a vegan diet?",
+              "options": ["Lower cholesterol", "Higher calcium absorption", "More saturated fats", "Improved protein synthesis"],
+              "correctAnswer": "Lower cholesterol"
+            },
+            {
+              "id": "vegan-4",
+              "question": "Vegan diets are associated with a reduced risk of which condition?",
+              "options": ["Heart disease", "Malaria", "Cold and flu", "Appendicitis"],
+              "correctAnswer": "Heart disease"
+            }
+          ]
+        },
+        {
+          "sectionTitle": "Challenges",
+          "questions": [
+            {
+              "id": "vegan-5",
+              "question": "Vegans may need to monitor intake of which mineral?",
+              "options": ["Zinc", "Magnesium", "Phosphorus", "Chloride"],
+              "correctAnswer": "Zinc"
+            },
+            {
+              "id": "vegan-6",
+              "question": "A poorly planned vegan diet can lead to deficiencies in which of the following?",
+              "options": ["Protein", "Vitamin B12", "Iron", "All of the above"],
+              "correctAnswer": "All of the above"
+            }
+          ]
+        },
+        {
+          "sectionTitle": "Foods Allowed",
+          "questions": [
+            {
+              "id": "vegan-7",
+              "question": "Which of the following is a vegan source of protein?",
+              "options": ["Tofu", "Eggs", "Cheese", "Yogurt"],
+              "correctAnswer": "Tofu"
+            },
+            {
+              "id": "vegan-8",
+              "question": "Which oil is suitable for a vegan diet?",
+              "options": ["Fish oil", "Coconut oil", "Butter", "Ghee"],
+              "correctAnswer": "Coconut oil"
+            },
+            {
+              "id": "vegan-9",
+              "question": "Which of these is NOT vegan?",
+              "options": ["Lentils", "Milk", "Quinoa", "Peas"],
+              "correctAnswer": "Milk"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dietName": "Keto Diet",
+      "sections": [
+        {
+          "sectionTitle": "Basics",
+          "questions": [
+            {
+              "id": "keto-1",
+              "question": "What macronutrient is drastically reduced in a ketogenic diet?",
+              "options": ["Fat", "Protein", "Carbohydrates", "Water"],
+              "correctAnswer": "Carbohydrates"
+            },
+            {
+              "id": "keto-2",
+              "question": "What is the main metabolic state induced by the keto diet?",
+              "options": ["Ketosis", "Glycolysis", "Anabolism", "Photosynthesis"],
+              "correctAnswer": "Ketosis"
+            }
+          ]
+        },
+        {
+          "sectionTitle": "Benefits",
+          "questions": [
+            {
+              "id": "keto-3",
+              "question": "Which is a commonly reported benefit of the keto diet?",
+              "options": ["Improved mental focus", "Increased blood sugar", "Muscle loss", "Digestive issues"],
+              "correctAnswer": "Improved mental focus"
+            },
+            {
+              "id": "keto-4",
+              "question": "The keto diet may help manage which condition?",
+              "options": ["Epilepsy", "Tuberculosis", "Asthma", "Arthritis"],
+              "correctAnswer": "Epilepsy"
+            }
+          ]
+        },
+        {
+          "sectionTitle": "Challenges",
+          "questions": [
+            {
+              "id": "keto-5",
+              "question": "What is a temporary side effect during the transition to keto?",
+              "options": ["Keto flu", "Fat gain", "Skin rash", "Hair growth"],
+              "correctAnswer": "Keto flu"
+            },
+            {
+              "id": "keto-6",
+              "question": "Which nutrient might be low on a keto diet if not carefully planned?",
+              "options": ["Fiber", "Protein", "Fat", "Salt"],
+              "correctAnswer": "Fiber"
+            }
+          ]
+        },
+        {
+          "sectionTitle": "Foods Allowed",
+          "questions": [
+            {
+              "id": "keto-7",
+              "question": "Which of these foods is commonly eaten on a keto diet?",
+              "options": ["Avocado", "Rice", "Banana", "Bread"],
+              "correctAnswer": "Avocado"
+            },
+            {
+              "id": "keto-8",
+              "question": "Which oil is considered keto-friendly?",
+              "options": ["Canola oil", "Olive oil", "Vegetable oil", "Corn oil"],
+              "correctAnswer": "Olive oil"
+            },
+            {
+              "id": "keto-9",
+              "question": "Which of these is not keto-friendly?",
+              "options": ["Cauliflower", "Cheese", "Pasta", "Salmon"],
+              "correctAnswer": "Pasta"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dietName": "Dairy Diet",
+      "sections": [
+        {
+          "sectionTitle": "Basics",
+          "questions": [
+            {
+              "id": "dairy-1",
+              "question": "What is the primary food group in a dairy-focused diet?",
+              "options": ["Grains", "Fruits", "Dairy products", "Meat"],
+              "correctAnswer": "Dairy products"
+            },
+            {
+              "id": "dairy-2",
+              "question": "Which of the following is a common dairy product?",
+              "options": ["Milk", "Butter", "Cheese", "All of the above"],
+              "correctAnswer": "All of the above"
+            }
+          ]
+        },
+        {
+          "sectionTitle": "Benefits",
+          "questions": [
+            {
+              "id": "dairy-3",
+              "question": "Dairy is a rich source of which mineral?",
+              "options": ["Zinc", "Calcium", "Iron", "Sodium"],
+              "correctAnswer": "Calcium"
+            },
+            {
+              "id": "dairy-4",
+              "question": "Dairy intake is associated with improved health of which body part?",
+              "options": ["Heart", "Liver", "Bones", "Lungs"],
+              "correctAnswer": "Bones"
+            }
+          ]
+        },
+        {
+          "sectionTitle": "Challenges",
+          "questions": [
+            {
+              "id": "dairy-5",
+              "question": "What is a common issue for people sensitive to dairy?",
+              "options": ["Lactose intolerance", "High protein levels", "Excess calcium", "Low iron"],
+              "correctAnswer": "Lactose intolerance"
+            },
+            {
+              "id": "dairy-6",
+              "question": "Too much dairy can contribute to which condition in some individuals?",
+              "options": ["Acne", "Flu", "High fiber", "Anemia"],
+              "correctAnswer": "Acne"
+            }
+          ]
+        },
+        {
+          "sectionTitle": "Foods Allowed",
+          "questions": [
+            {
+              "id": "dairy-7",
+              "question": "Which of these is considered a fermented dairy product?",
+              "options": ["Yogurt", "Milk", "Butter", "Cream"],
+              "correctAnswer": "Yogurt"
+            },
+            {
+              "id": "dairy-8",
+              "question": "Which non-dairy milk is often used by those avoiding dairy?",
+              "options": ["Almond milk", "Cow milk", "Goat milk", "Buffalo milk"],
+              "correctAnswer": "Almond milk"
+            },
+            {
+              "id": "dairy-9",
+              "question": "Which of the following is NOT a dairy product?",
+              "options": ["Paneer", "Cheese", "Eggs", "Cream"],
+              "correctAnswer": "Eggs"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
